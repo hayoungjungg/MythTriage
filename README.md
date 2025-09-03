@@ -38,16 +38,16 @@ The code and data are organized in their respective directories. Please read the
 
 ## Types of Opioid Use Disorder Myths Detected in MythTriage
 
-MythTriage detects and classifies 8 categories of prevalent opioid use disorder myths recognized by major health organizations and validated by clinical experts:
+MythTriage detects and classifies 8 categories of prevalent opioid use disorder myths recognized by major health organizations and validated by clinical experts. Below are links to the lightweight models for each myth:
 
-- **M1**: Agonist therapy or medication-assisted treatment (MAT) for OUD is merely replacing one drug with another
-- **M2**: People with OUD are not suffering from a medical disease treatable with medication from a self-imposed condition maintained through the lack of moral fiber
-- **M3**: The ultimate goal of treatment for OUD is abstinence from any opioid use (e.g., Taking medication is not true recovery)
-- **M4**: Only patients with certain characteristics are vulnerable to addiction
-- **M5**: Physical dependence or tolerance is the same as addiction
-- **M6**: Detoxification for OUD is effective
-- **M7**: You should only take medication for a brief period of time
-- **M8**: Kratom is a non-addictive and safe alternative to opioids
+- **M1:** Agonist therapy or medication-assisted treatment (MAT) for OUD is merely replacing one drug with another [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M1)
+- **M2:** People with OUD are not suffering from a medical disease treatable with medication from a self-imposed condition maintained through the lack of moral fiber  [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M2)
+- **M3:** The ultimate goal of treatment for OUD is abstinence from any opioid use (e.g., Taking medication is not true recovery)  [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M3)
+- **M4:** Only patients with certain characteristics are vulnerable to addiction [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M4)
+- **M5:** Physical dependence or tolerance is the same as addiction [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M5)
+- **M6:** Detoxification for OUD is effective [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M6)
+- **M7:** You should only take medication for a brief period of time [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M7)
+- **M8:** Kratom is a non-addictive and safe alternative to opioids [(LINK)](https://huggingface.co/SocialCompUW/youtube-opioid-myth-detect-M8)
 
 ## License
 
