@@ -6,19 +6,6 @@ This repository contains the code and data accompanying the paper [MYTHTRIAGE: S
 
 MythTriage is designed to automatically evaluate and classify YouTube videos for opioid use disorder myths. The triage pipeline uses a lightweight model (DeBERTa-v3-base) for routine cases and defers harder ones to state-of-the-art, but costlier large language models (GPT-4o) to provide robust, cost-efficient, and high-performing detection of opioid use disorder myths on YouTube. For more details, please read the paper.  
 
-## Types of Opioid Use Disorder Myths Detected
-
-MythTriage detects and classifies 8 categories of prevalent opioid use disorder myths recognized by major health organizations and validated by clinical experts:
-
-- **M1**: Agonist therapy or medication-assisted treatment (MAT) for OUD is merely replacing one drug with another
-- **M2**: People with OUD are not suffering from a medical disease treatable with medication from a self-imposed condition maintained through the lack of moral fiber
-- **M3**: The ultimate goal of treatment for OUD is abstinence from any opioid use (e.g., Taking medication is not true recovery)
-- **M4**: Only patients with certain characteristics are vulnerable to addiction
-- **M5**: Physical dependence or tolerance is the same as addiction
-- **M6**: Detoxification for OUD is effective
-- **M7**: You should only take medication for a brief period of time
-- **M8**: Kratom is a non-addictive and safe alternative to opioids
-
 ## Repository Structure
 
 ```
@@ -42,12 +29,25 @@ The code and data are organized in their respective directories. Please read the
 - **Code Documentation**: See `/code/README.md` for detailed code structure
 - **Data Documentation**: See `/data/README.md` for dataset descriptions
 
-### Quick Start (Code)
+### Quick Start for Code
 1. **Data Collection**: Use notebooks in `/code/data-collection-pipeline/` to gather YouTube search and recommendation results.
 2. **Model Training**: Fine-tune DeBERTa models using `/code/labeling-pipeline/deberta-labeling/deberta-train.py`
 3. **Model Inference & Cascade**: Infer videos and cascade harder examples at scale using `/code/labeling-pipeline/deberta-labeling/recommendation-label.ipynb`
 4. **LLM Evaluation**: Apply LLM-based labeling with `/code/labeling-pipeline/llm-labeling/gpt-prompting.ipynb`
 5. **Analysis**: Run and reproduce our analysis using `/code/analysis/analysis.ipynb`
+
+## Types of Opioid Use Disorder Myths Detected in MythTriage
+
+MythTriage detects and classifies 8 categories of prevalent opioid use disorder myths recognized by major health organizations and validated by clinical experts:
+
+- **M1**: Agonist therapy or medication-assisted treatment (MAT) for OUD is merely replacing one drug with another
+- **M2**: People with OUD are not suffering from a medical disease treatable with medication from a self-imposed condition maintained through the lack of moral fiber
+- **M3**: The ultimate goal of treatment for OUD is abstinence from any opioid use (e.g., Taking medication is not true recovery)
+- **M4**: Only patients with certain characteristics are vulnerable to addiction
+- **M5**: Physical dependence or tolerance is the same as addiction
+- **M6**: Detoxification for OUD is effective
+- **M7**: You should only take medication for a brief period of time
+- **M8**: Kratom is a non-addictive and safe alternative to opioids
 
 ## License
 
