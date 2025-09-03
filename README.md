@@ -1,6 +1,6 @@
 # MythTriage
 
-This repository contains the code and data accompanying the paper [MYTHTRIAGE: Scalable Detection of Opioid Use Disorder Myths on a Video-Sharing Platform](https://arxiv.org/pdf/2506.00308). MythTriage is a scalable pipeline for detecting opioid use disorder (OUD) myths on YouTube, enabling large-scale analysis and informing moderation and health interventions.
+This repository contains the code and data accompanying the EMNLP 2025 paper [MYTHTRIAGE: Scalable Detection of Opioid Use Disorder Myths on a Video-Sharing Platform](https://arxiv.org/pdf/2506.00308). MythTriage is a scalable pipeline for detecting opioid use disorder (OUD) myths on YouTube, enabling large-scale analysis and informing moderation and health interventions.
 
 ## Project Overview
 

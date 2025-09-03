@@ -28,7 +28,8 @@ Contains tools and pipelines for labeling and evaluating YouTube content for 8 o
 - **`utils/`**: Utility modules for LLM labeling pipeline.
   - **`EvaluatorHelper.py`**: Helper functions for evaluating and processing LLM outputs.
   - **`GPTRequests.py`**: Utility functions for making requests to OpenAI API endpoints.
-  - **`prompts.py`**: Collection of (zero-shot and few-shot) prompt templates and configurations for different labeling tasks.
+  - **`prompts.py`**: Contains (zero-shot and few-shot) prompt templates for both myth-specific and overall stance classification tasks. For each myth category, it provides 5-shot examples (e.g., `{MYTH}_FEW_SHOT_EXAMPLES`) that include video metadata (titles, descriptions, transcripts, tags), labels, and justifications for the assigned labels. To follow best practices for data ethics and user privacy, the metadata fields were removed; instead, the associated video IDs are included as comments above each set of myth-specific examples in this file. Practitioners can use these IDs to rehydrate the few-shot examples.
+
 
 ---
 
