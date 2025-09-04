@@ -10,7 +10,7 @@ This directory contains all the data files for the MythTriage project, including
 Contains human-annotated datasets used as ground truth for evaluation. 
 
 #### `/myth_specific`
-Contains labels for 310 videos per file, each corresponding to one of the 8 opioid use disorder myths. See Table 9 in the paper for the mapping between numeric values in these files and annotation labels with descriptions.
+Contains labels for 310 videos per file, each corresponding to one of the 8 opioid use disorder myths. See Table 10 in the paper for the mapping between numeric values in these files and annotation labels with descriptions.
 - **`M1_evaluation_set.csv`**: Evaluation dataset for myth category M1 with clinical expert annotations.
 - **`M2_evaluation_set.csv`**: Evaluation dataset for myth category M2 with clinical expert annotations.
 - **`M3_evaluation_set.csv`**: Evaluation dataset for myth category M3 with clinical expert annotations.
